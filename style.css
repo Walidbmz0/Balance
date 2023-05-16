@@ -1,0 +1,21 @@
+body {
+  background-color: #f3e8db;
+  background-image: url(src/MOTIF\ FOND.svg);
+}
+
+/* Logo du site  */
+
+header img{
+    margin-left: 5%;
+    margin-top: 1% ;
+    width: 4%;
+}
+
+/* Barre de navigation */
+
+
+a.nav-link:hover{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
