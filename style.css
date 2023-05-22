@@ -90,5 +90,15 @@ header img {
     opacity: 1;
   }
 
-  
+
+  /* Regroupe le h1 le p et le boutton */
+  .topLeft {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    text-wrap: balance;
+ 
+  }
+  /* button */
+
   
