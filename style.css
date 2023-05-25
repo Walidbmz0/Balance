@@ -124,10 +124,101 @@ header img {
   /* statue */
 
   .statue{
-   
     position: absolute;
-    left: 340px;
-    top: 1%;
+    left: 425px;
+    top: 200px;
  
   
   }
+
+  
+  /* RECTANGLE */
+  
+  #rectangle {
+    background-image: url(src/MOTIF\ FOND.svg);
+    display: flex;
+    TOP: 100%;
+    
+position: absolute;
+        top: 145%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        max-width: 100%;
+
+
+    justify-content: center;
+    flex-direction: column;
+    background-color: #242323;
+    color: #ffffff;
+    padding: 20px;
+    
+  }
+  
+  #rectangle h2 {
+    margin: 10px;
+    text-align: center;
+  }
+  
+  #rectangleContent{
+    display: flex;
+    
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .PROJECT{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: x-large;
+  }
+
+  .PROJECT span{
+    color: #f3e8db;
+  }
+
+  .AGENTS{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: x-large;
+  }
+
+  .AGENTS span{
+    color: #f3e8db;
+  }
+
+  .BRANCHES{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: x-large;
+  }
+
+  .BRANCHES span{
+    color: #f3e8db;
+  }
+
+  
+
+  /* footer */
+
+  .footer {
+        background-color: #242323;
+        color: #ffffff;
+        padding: 20px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+    
+    .footer-content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .footer p {
+        margin: 10px;
+    }
